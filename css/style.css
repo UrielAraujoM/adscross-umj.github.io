@@ -1,0 +1,249 @@
+/* --------INÍCIO------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-style: italic;
+}
+
+#paginaInicial {
+  padding: 0;
+}
+
+.imgLogo {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 24px;
+  left: 14px;
+}
+
+.logo,
+a {
+  padding: 35px 20px 0 15px;
+}
+
+.logo {
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  margin-left: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+}
+
+a {
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+nav > a:hover {
+  color: #000;
+  text-shadow: 2px 2px #fffd15;
+  transition: 0.5s;
+}
+
+a:last-child {
+  margin-right: 50px;
+}
+
+.imgPrincipal {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+}
+
+.homePrincipal {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fraseCentral {
+  color: #ffff;
+  font-size: 7.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px #000;
+}
+
+span {
+  font-weight: 700;
+  color: #fffd15;
+}
+
+/*------SOBRE----------*/
+
+.sobrePrincipal {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35%;
+  height: 100%;
+  margin-left: 55px;
+  color: #fff;
+}
+
+.tituloSobre {
+  font-size: 5rem;
+  color: #fffd15;
+  font-weight: 700;
+  line-height: 0.85;
+}
+
+body {
+  background-color: #000000ea;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 60%;
+  height: 80vh;
+}
+
+.fotoSobre1,
+.fotoSobre2 {
+  width: 42%;
+  height: 70%;
+}
+
+.fotoSobre1 {
+  position: relative;
+  top: 10px;
+}
+
+.fotoSobre1:hover {
+  top: 2px;
+  transition: 0.5s;
+}
+
+.fotoSobre2 {
+  position: relative;
+  top: 150px;
+}
+
+.fotoSobre2:hover {
+  top: 140px;
+  transition: 0.5s;
+}
+
+/* ---------OFERTA---------- */
+
+.tituloOfertas {
+  color: #fffd15;
+  font-weight: 700;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.textoOfertas {
+  color: #fff;
+  text-align: center;
+}
+
+div {
+  display: flex;
+  height: 75vh;
+  gap: 10px;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0 25px;
+}
+
+.imgGaleriaOfertas {
+  width: 33%;
+  height: 65vh;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.imgGaleriaOfertas:hover {
+  opacity: 0.3;
+}
+
+.tourOfertas, .grupoOfertas, .personalOfertas {
+  color: #ffff;
+  position: absolute;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 0.8;
+}
+
+.tourOfertas {
+  left: 12%;
+}
+
+.grupoOfertas {
+  left: 45%;
+  text-align: center;
+}
+
+.personalOfertas {
+  left: 77%;
+}
+
+/* ------CONTATO------- */
+
+.lateralContato {
+  display: flex;
+  height: 64vh;
+}
+
+.tituloContato {
+  font-size: 5rem;
+  color: #fffd15;
+  font-weight: 700;
+  line-height: 0.85;
+}
+
+footer {
+  background-color: #fffd15;
+  height: 28vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tituloFooter {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000;
+  margin-top: 30px;
+}
+
+.textoFooter {
+  color: #000;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  height: 28vh;
+}
+
